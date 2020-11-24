@@ -1,0 +1,19 @@
+.kanban {
+  display: flex;
+  justify-content: center;
+  border: none;
+  border-radius: 10px;
+  padding: 20px;
+  width: 1000px;
+  background-color: #b53636;
+}
+.container {
+  width: max-content;
+  height: max-content;
+  margin: auto;
+  margin-top: 5%;
+}
+.header {
+  margin: 0px;
+  color: #b53636;
+}

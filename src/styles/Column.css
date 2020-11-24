@@ -1,0 +1,46 @@
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border: none;
+  width: 300px;
+  height: 500px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px #872626;
+
+  padding: 10px 1px 10px 1px;
+}
+.containerCol {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.cHeader {
+  margin: 0px;
+  color: white;
+}
+
+.addField {
+  display: flex;
+}
+
+.input {
+  flex: 1;
+  border: 2px solid #b53636;
+  border-radius: 6px;
+  height: 20px;
+  margin-right: 5px;
+}
+.button {
+  border: 2px solid #b53636;
+  border-radius: 5px;
+  color: #b53636;
+  background-color: white;
+  flex: 1;
+  transition: 0.2s;
+}
+.button:hover {
+  background-color: #b53636;
+  color: white;
+}

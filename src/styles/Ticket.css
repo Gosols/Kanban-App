@@ -1,0 +1,17 @@
+.ticket {
+  width: 90%;
+  text-align: center;
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: 1px 1px 7px grey;
+  margin-bottom: 7px;
+  transition: 0.3s;
+}
+
+.ticket:hover {
+  background-color: #b53636;
+  color: white;
+}
+.text {
+  overflow-wrap: normal;
+}
